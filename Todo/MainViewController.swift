@@ -139,7 +139,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         todoTableView.reloadData()
     }
     
-    
     @IBAction func filterButtonTapped(_ sender: UIButton) {
         filterButton.tintColor = UIColor.black
         menuButton.tintColor = UIColor.lightGray
